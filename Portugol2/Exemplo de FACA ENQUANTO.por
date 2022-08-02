@@ -1,25 +1,29 @@
-/* 3. Faça um sistema que leia o tempo de duração de um evento em uma fábrica
-expressa em segundos e mostre-o expresso em horas, minutos e segundos. */
-
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro tempsec, horas, minutos, segundos
-		escreva("\nEntre com tempo, em segundos, da rotação completa da máquina? ")
-		leia (tempsec)
+		inteiro tabuada,x=1,resultado
 
-		horas =
-		
+		escreva("\nQual tabuada que você deseja visualizar: ")
+		leia(tabuada)//5
+		faca
+		{
+			resultado = tabuada * x
+			escreva("\n",tabuada," X ",x," = ",resultado)
+			x++// x = x + 1
+			
+		}
+		enquanto(x<=10)
 	}
-}
+} 
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 341; 
+ * @POSICAO-CURSOR = 280; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
